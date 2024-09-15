@@ -31,12 +31,6 @@ namespace Charges_Notification_System
 
             DataTable dataTable = sdq.ExecuteQuery(query);
 
-            foreach (DataColumn column in dataTable.Columns)
-            {
-                Console.Write(column.ColumnName + "\t");
-            }
-            Console.WriteLine();
-
             return dataTable;
         }
     }        

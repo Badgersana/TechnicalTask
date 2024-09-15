@@ -68,6 +68,9 @@
   <ItemGroup>
     <Compile Include="DataTableConverter.cs" />
     <Compile Include="DataTableGenerator.cs" />
+    <Compile Include="GamesDBDataSet.cs">
+      <DependentUpon>GamesDBDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="GamesDBDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
